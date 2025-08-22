@@ -20,16 +20,16 @@ pipeline {
             }
         }
     }
-}
-post { 
+    post { 
         always { 
             echo 'I will always say Hello again!'
         }
         success{
             echo" hello success"
-
         }
         failure{
             echo"hello its failure"
         }
     }
+}
+  
